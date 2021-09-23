@@ -8,6 +8,11 @@ public class Vilao {
 
     }
 
+    public Vilao(String nome, double vida) {
+        this.nome = nome;
+        this.vida = vida;
+    }
+
     public String getNome() {
         return nome;
     }

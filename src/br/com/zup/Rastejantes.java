@@ -6,6 +6,12 @@ public class Rastejantes extends Vilao {
     public Rastejantes(){
 
     }
+
+    public Rastejantes(String nome, double vida, double danoEspinhos) {
+        super(nome, vida);
+        this.danoEspinhos = danoEspinhos;
+    }
+
     public double getDanoEspinhos() {
         return danoEspinhos;
     }

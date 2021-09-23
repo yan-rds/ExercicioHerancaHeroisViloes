@@ -7,6 +7,11 @@ public class Voadores extends Vilao {
 
     }
 
+    public Voadores(String nome, double vida, double danoTiro) {
+        super(nome, vida);
+        this.danoTiro = danoTiro;
+    }
+
     public double getDanoTiro() {
         return danoTiro;
     }
