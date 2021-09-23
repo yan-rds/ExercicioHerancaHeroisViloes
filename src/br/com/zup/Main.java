@@ -8,5 +8,7 @@ public class Main {
         System.out.println(guerreiro.getVida());
         guerreiro.receberDano(voador.aplicarDano());
         System.out.println(guerreiro.getVida());
+        guerreiro.trocarNome("guerreiro com " + guerreiro.getVida() + " de vida");
+        System.out.println(guerreiro.getNome());
     }
 }
