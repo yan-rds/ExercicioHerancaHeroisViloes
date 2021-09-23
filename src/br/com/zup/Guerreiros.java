@@ -3,9 +3,7 @@ package br.com.zup;
 public class Guerreiros extends Heroi{
     double poderAtaque;
 
-    public Guerreiros(){
 
-    }
 
     public Guerreiros(String nome, double vida, double poderAtaque) {
         super(nome, vida);

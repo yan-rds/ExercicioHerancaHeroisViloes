@@ -3,9 +3,6 @@ package br.com.zup;
 public class Voadores extends Vilao {
     double danoTiro;
 
-    public Voadores (){
-
-    }
 
     public Voadores(String nome, double vida, double danoTiro) {
         super(nome, vida);

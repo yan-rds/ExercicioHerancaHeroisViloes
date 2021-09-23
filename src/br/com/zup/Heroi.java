@@ -4,9 +4,7 @@ public class Heroi {
     private String nome;
     private double vida;
 
-    public Heroi(){
 
-    }
 
     public Heroi(String nome, double vida) {
         this.nome = nome;

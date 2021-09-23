@@ -3,9 +3,6 @@ package br.com.zup;
 public class Magos extends Heroi {
     private double poderMagico;
 
-    public Magos (){
-
-    }
 
     public Magos(String nome, double vida, double poderMagico) {
         super(nome, vida);

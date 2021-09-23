@@ -4,9 +4,7 @@ public class Vilao {
     private String nome;
     private double vida;
 
-    public Vilao(){
 
-    }
 
     public Vilao(String nome, double vida) {
         this.nome = nome;
