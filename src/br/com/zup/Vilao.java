@@ -23,4 +23,16 @@ public class Vilao {
     public void setVida(double vida) {
         this.vida = vida;
     }
+
+    public void trocarNome (String nome){
+        setNome(nome);
+    }
+
+    public void receberDano (Double dano){
+        setVida(getVida() - dano);
+    }
+
+    public double exibirVida(){
+        return getVida();
+    }
 }
